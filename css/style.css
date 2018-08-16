@@ -1,0 +1,28 @@
+.jumbotron {
+  background-color: #fff;
+}
+
+.lead span {
+  color: #3aad05;
+}
+
+h1 {
+  color: #666;
+}
+
+.bg-blue {
+  background-color: #0087be;
+}
+
+.navbar-brand small {
+  opacity: .5;
+}
+
+.post-meta {
+  margin-top: 3rem;
+  color: #6c757d;
+}
+
+.post-meta::before {
+  content: "\2014 \00A0";
+}
