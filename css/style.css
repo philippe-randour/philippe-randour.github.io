@@ -26,3 +26,16 @@ h1 {
 .post-meta::before {
   content: "\2014 \00A0";
 }
+
+ul.list-special {
+  list-style: none;
+}
+
+ul.list-special li:before {
+  opacity: .3;
+  margin-right: 10px;
+}
+
+ul.arrow-bullet li:before {
+  content: "\279c";
+}
