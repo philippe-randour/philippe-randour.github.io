@@ -33,7 +33,9 @@ ul.list-special {
 
 ul.list-special li:before {
   opacity: .3;
-  margin-right: 10px;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em
 }
 
 ul.arrow-bullet li:before {
