@@ -51,3 +51,12 @@ ul.arrow-bullet li:before {
   content: "\002f\003e";
   opacity: .5;
 }
+
+footer.page-footer {
+  text-align: center;
+  margin-top: 5em;
+}
+
+footer.page-footer img {
+  opacity: .125;
+}
