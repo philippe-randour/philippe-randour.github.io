@@ -41,3 +41,13 @@ ul.list-special li:before {
 ul.arrow-bullet li:before {
   content: "\279c";
 }
+
+.navbar-brand::before {
+  content: "\003c";
+  opacity: .5;
+}
+
+.navbar-brand::after {
+  content: "\002f\003e";
+  opacity: .5;
+}
