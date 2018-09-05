@@ -1,5 +1,32 @@
+body {
+  background-color: #f5f7fb;
+}
+
+.navbar-brand {
+  opacity: .6
+}
+
+.navbar-brand::before {
+  content: "\003c";
+  opacity: .4;
+}
+
+.navbar-brand::after {
+  content: "\002f\003e";
+  opacity: .4;
+}
+
 .jumbotron {
-  background-color: #fff;
+  background-color: #0087be; /*#fff;*/
+}
+
+.jumbotron .blockquote {
+  color: #fff;
+}
+
+.jumbotron .blockquote-footer {
+  color: #fff;
+  opacity: .5;
 }
 
 .lead span {
@@ -12,10 +39,6 @@ h1 {
 
 .bg-blue {
   background-color: #0087be;
-}
-
-.navbar-brand small {
-  opacity: .5;
 }
 
 .post-meta {
@@ -42,19 +65,9 @@ ul.arrow-bullet li:before {
   content: "\279c";
 }
 
-.navbar-brand::before {
-  content: "\003c";
-  opacity: .5;
-}
-
-.navbar-brand::after {
-  content: "\002f\003e";
-  opacity: .5;
-}
-
 footer.page-footer {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 3em;
   margin-bottom: 3em;
 }
 
